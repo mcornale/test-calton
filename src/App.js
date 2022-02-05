@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Analysis from './components/Analysis/Analysis';
+import FormsContainer from './components/Forms/FormsContainer';
+import Header from './components/Header/Header';
+import { Chart, registerables } from 'chart.js';
 
-function App() {
+const App = () => {
+  Chart.register(...registerables);
+  Chart.defaults.font.family = "'Montserrat', sans-serif";
+  Chart.defaults.font.weight = 500;
+  Chart.defaults.font.size = '12';
+  Chart.defaults.color = '#222';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <main>
+        <h1>Analisi Avanzata</h1>
+        <FormsContainer />
+        <Analysis />
+      </main>
+    </>
   );
-}
+};
 
 export default App;

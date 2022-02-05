@@ -1,0 +1,27 @@
+.topics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.topics-list__topic {
+  color: #fff;
+  padding: 0.6em 1.2em;
+  border-radius: var(--border-radius-rounded);
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: default;
+  text-shadow: 0.1rem 0.1rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.topics-list__button {
+  margin-top: 1rem;
+  margin-bottom: -1.5rem;
+  color: var(--color-main);
+  font-weight: 700;
+  font-size: 1.3rem;
+  background-color: transparent;
+  align-self: flex-end;
+  text-transform: lowercase;
+  padding: 1.5rem 0;
+}

@@ -1,0 +1,15 @@
+.header__container {
+  background-color: var(--color-box-background);
+  box-shadow: var(----box-shadow-default);
+}
+
+.header {
+  padding: 1.4rem var(--padding-layout-horizontal);
+  max-width: var(--max-layout-width);
+  margin: 0 auto;
+}
+
+.header__logo {
+  max-height: 5rem;
+  width: auto;
+}

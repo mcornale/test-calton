@@ -1,0 +1,21 @@
+.analysis {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.analysis__infos-container {
+  flex: 1 1 28rem;
+  gap: 1.5rem;
+}
+
+.analysis__widgets-container {
+  flex: 11 1 60rem;
+  gap: 3rem;
+}
+
+.analysis__infos-container,
+.analysis__widgets-container {
+  display: flex;
+  flex-direction: column;
+}

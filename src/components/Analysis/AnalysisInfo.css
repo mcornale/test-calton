@@ -1,0 +1,13 @@
+.analysis-info {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow-default);
+  background-color: var(--color-box-background);
+  padding: 2rem;
+  border-radius: var(--border-radius-default);
+}
+
+.analysis-info__value {
+  font-size: 1.6rem;
+  font-weight: 700;
+}

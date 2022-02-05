@@ -1,0 +1,5 @@
+.forms-container {
+  margin: 2rem 0 4rem;
+  display: flex;
+  gap: 4rem;
+}

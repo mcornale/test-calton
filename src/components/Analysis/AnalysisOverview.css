@@ -1,0 +1,18 @@
+.analysis-results {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-box-background);
+  border-radius: var(--border-radius-default);
+  padding: 2.5rem;
+  box-shadow: var(--box-shadow-default);
+}
+
+.analysis-results__header {
+  text-align: center;
+}
+
+.analysis-results__chart {
+  width: 22rem !important;
+  height: 22rem !important;
+  margin: 3rem auto 5rem;
+}
